@@ -1,0 +1,28 @@
+.Screen{
+    width:802px;
+    height:555px;
+    background-color: white;
+    padding:0;
+    margin:0;
+    top:0;
+    display:grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    border-style:solid;
+    margin:20px;   
+  }
+.Image{
+    overflow:hidden;
+    display:grid;
+    margin:10px;
+    width:90%;
+    height:90%;
+    object-fit: contain;
+    border-style:solid;
+}
+.QR{
+    position:absolute;
+    width:150px;
+    top:220px;
+    left:345px;
+}

@@ -1,0 +1,8 @@
+.Img{
+    object-fit:contain;
+    max-width: 90%;
+    max-height: 90%;
+    display:block;
+    align-self: top;
+    justify-self: center;
+}
